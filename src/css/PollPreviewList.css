@@ -1,0 +1,8 @@
+.default-active {
+    background-color: #F7F7F7;
+}
+
+.btn-options .active-inactive:focus {
+    background-color: #F7F7F7;
+    border: 1px solid black;
+}

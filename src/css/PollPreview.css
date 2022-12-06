@@ -1,0 +1,9 @@
+.user-card-img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.view-poll-btn {
+    border: 1px solid #21ba45;
+}
