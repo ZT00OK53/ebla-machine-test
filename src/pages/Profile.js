@@ -16,8 +16,8 @@ class Header extends Component {
     return (
       <div>
         <span className="text-capitalize">Hello {users[authedUser].name}!</span>&nbsp;
-        <button className='btn btn-none px-4 shadow-none'>
-          <a onClick={this.handleLogout}>Logout</a>
+        <button className='btn btn-none px-4 shadow-none' onClick={this.handleLogout}>
+          Logout
         </button>
       </div>
     );

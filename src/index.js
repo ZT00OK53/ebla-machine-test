@@ -10,7 +10,6 @@ import middleware from './middleware';
 import 'semantic-ui-css/semantic.min.css'
 
 const store = createStore(rootReducer, middleware);
-console.log(store);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>

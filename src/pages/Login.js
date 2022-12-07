@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import { setAuthedUser } from '../actions/authUser';
 import {
     Segment,
-    Grid,
     Header,
-    Image,
-    Form,
-    Loader,
-    Dimmer
 } from 'semantic-ui-react';
 
 class Login extends Component {
@@ -44,7 +38,7 @@ class Login extends Component {
         return (
             <React.Fragment>
                 <Segment.Group>
-                {this.state.message != ""? <span className='fw-bold text-danger mt-2 d-flex justify-content-center'>{this.state.message}</span>: null}
+                {this.state.message !== ""? <span className='fw-bold text-danger mt-2 d-flex justify-content-center'>{this.state.message}</span>: null}
                     <LoginHeader />
                     <div className="text-center card-body">
                         <h4 className="fw-bold main-heading">Sign In</h4>

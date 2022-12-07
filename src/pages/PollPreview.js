@@ -76,6 +76,7 @@ class PollPreview extends Component {
                     ? users[question.author].avatarURL
                     : users[authedUser].avatarURL
                 }
+                alt="avtar-url"
               />
             </div>
             <div className='px-3 py-2 w-100'>

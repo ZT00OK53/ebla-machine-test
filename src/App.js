@@ -12,6 +12,7 @@ import PollPreviewList from "./pages/PollPreviewList";
 import Private from "./pages/Private";
 import ScorecardList from "./pages/ScorecardList";
 import { Grid } from 'semantic-ui-react';
+import LoadingBar from "react-redux-loading-bar";
 
 class App extends Component {
   componentDidMount() {
@@ -23,6 +24,7 @@ class App extends Component {
     return (
       <Router>
         <Fragment>
+          <LoadingBar />
           {authedUser !== null && (
             <div>
               <NavBar />
@@ -30,7 +32,7 @@ class App extends Component {
           )}
           <ContentGrid>
             <Switch>
-              <Route path="/" exact component={withRouter(Login)}/>
+              <Route path="/" exact component={withRouter(Login)} />
               <Private
                 isAuthenticated={authedUser !== null}
                 exact

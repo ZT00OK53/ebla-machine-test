@@ -3,7 +3,7 @@ let users = {
     id: "sarahedo",
     name: "Sarah Edo",
     avatarURL:
-      "https://uploads.codesandbox.io/uploads/user/7edac254-d746-46cc-9d29-fbfd1d4a91e6/awtA-sarah_edo.png",
+      "https://www.gstatic.com/webp/gallery3/1.sm.png",
     answers: {
       "8xf0y6ziyjabvozdd253nd": "optionOne",
       "6ni6ok3ym7mf1p33lnez": "optionOne",
@@ -16,7 +16,7 @@ let users = {
     id: "tylermcginnis",
     name: "Tyler McGinnis",
     avatarURL:
-      "https://uploads.codesandbox.io/uploads/user/7edac254-d746-46cc-9d29-fbfd1d4a91e6/7dNg-tyler_mcginnis.png",
+      "https://www.gstatic.com/webp/gallery/4.sm.jpg",
     answers: {
       vthrdm985a262al8qx3do: "optionOne",
       xj352vofupe1dqz9emx13r: "optionTwo"
@@ -27,7 +27,7 @@ let users = {
     id: "johndoe",
     name: "John Doe",
     avatarURL:
-      "https://uploads.codesandbox.io/uploads/user/7edac254-d746-46cc-9d29-fbfd1d4a91e6/8Bhe-john_doe.png",
+      "https://www.gstatic.com/webp/gallery3/2.sm.png",
     answers: {
       xj352vofupe1dqz9emx13r: "optionOne",
       vthrdm985a262al8qx3do: "optionTwo",

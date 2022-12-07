@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* NabBar css */
+.navlink-text {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.navlink-text:focus {
+  color: #21ba45 !important;
+  text-decoration: none;
+}
+
+/* Poll waiting button css  */
+.options-btn:hover, .options-btn:focus {
+  background-color: antiquewhite;
+  box-shadow: none !important;
+}

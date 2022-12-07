@@ -18,7 +18,6 @@ class PollPreviewList extends Component {
   render() {
     const { tab } = this.state;
     const { unansweredIds, answeredIds } = this.props;
-    console.log(this.props,'preview list')
     return (
       <div className='bg-white border'>
         <div className='text-center btn-options'>
